@@ -1,1 +1,1 @@
-# The LAMA Adapter for Data Hub
+# Data Hub Adapter using REST API and Spring Boot
