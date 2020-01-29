@@ -1,0 +1,15 @@
+## PostgreSQL
+server:
+  port: 9090
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/data_hub_adapter
+    username: your_username
+    password: your_password
+  jpa:
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true
